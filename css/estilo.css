@@ -44,7 +44,7 @@ footer{
     text-transform: uppercase;
     font-weight: bold;
     position: absolute;
-    top: 15%;
+    top: 14%;
 }
 ul li{
     display: inline;
@@ -62,4 +62,10 @@ ul li a:hover{
     font-size: 18px;
     text-decoration: underline dashed 2px;
     background-color: darkblue;
+}
+#CuerpoImagen{
+
+}
+#CuerpoDatos{
+
 }
