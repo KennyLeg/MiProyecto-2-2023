@@ -119,3 +119,17 @@ h1{
     opacity: 80%;
     cursor: pointer;
 }
+#marcoUbicacion{
+    background-color: #CCCCCC;
+    width: 250px;
+    background-image: url("../img/Recurso\ 2.png");
+    background-repeat: no-repeat;
+    background-size: 28px;
+    padding: 20px 0px 20px 60px;
+    background-position: left 25px center;
+    border-radius: 15px;
+}
+#marcoUbicacion:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
