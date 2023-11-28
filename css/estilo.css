@@ -15,8 +15,9 @@
 }
 footer{
     width: 100%;
-    height: 200px;
-    border: solid black 1px;
+    background-color: #7B9F35;
+    display: flex;
+    padding: 30px;
 }
 #cabeceraImagenNombre{
     flex: 30%;
@@ -50,6 +51,9 @@ ul li{
     display: inline;
     padding: 0 10px;
     border-right: solid 2px black;
+}
+ul li:last-child{
+    border-right: none;
 }
 ul li a{
     color: #550101;
@@ -92,12 +96,14 @@ h1{
     text-transform: uppercase;
 }
 #DetalleDatos{
-    width: 70%;
+    width: 80%;
     padding: 20px;
+    text-align: justify;
 }
 #Botones{
     display: flex;
     margin-top: 20px;
+    padding: 30px;
 }
 #BotonFavorito{
     flex: 50%;
@@ -106,30 +112,36 @@ h1{
     flex: 50%;
 }
 #marcoFavorito{
-    background-color: #CCCCCC;
-    width: 250px;
     background-image: url("../img/Recurso\ 13.png");
-    background-repeat: no-repeat;
-    background-size: 28px;
-    padding: 20px 0px 20px 60px;
-    background-position: left 25px center;
-    border-radius: 15px;
-}
-#marcoFavorito:hover{
-    opacity: 80%;
-    cursor: pointer;
 }
 #marcoUbicacion{
+    background-image: url("../img/Recurso\ 2.png");
+}
+.disenoBoton{
     background-color: #CCCCCC;
     width: 250px;
-    background-image: url("../img/Recurso\ 2.png");
     background-repeat: no-repeat;
     background-size: 28px;
     padding: 20px 0px 20px 60px;
     background-position: left 25px center;
     border-radius: 15px;
 }
-#marcoUbicacion:hover{
+.disenoBoton:hover{
     opacity: 80%;
     cursor: pointer;
+}
+#marcoMenuFooter{
+    flex: 15%;
+}
+#marcoDetalleFooter{
+    flex: 35%;
+}
+#marcoRedesFooter{
+    flex: 45%;
+}
+li img{
+    width: 28px;
+}
+.footerRedes li{
+    border: none;
 }
