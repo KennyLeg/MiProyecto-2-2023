@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/formulario.css">
     <title>MI WEB</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
                 <li id="logoinicio"><a href="index.html">Inicio</a></li>
                 <li><a href="#">Mis libros</a></li>
                 <li><a href="#">Mi musica</a></li>
-                <li><a href="#">Mis vídeos</a></li>
+                <li><a href="galeria.html">Mis vídeos</a></li>
                 <li><a href="contacto.html">Contáctenos</a></li>
                 <li><a href="#">Acerca de</a></li>
             </ul>
@@ -26,6 +27,34 @@
     </div>
     <!--Aquí pondremos el cuerpo del index-->
     <div id="contenidoCuerpo">
+        <div id="formularioDatos">
+            <fieldset>
+                <legend>Mis Datos</legend>
+                <form>
+                    <label>Mi Nombre:</label>
+                    <input type="text" placeholder="Ingresa Nombre">
+                    <label>Mi Apellido:</label>
+                    <input type="text" placeholder="Ingresa Apellido">
+                    <label>Mi Edad</label>
+                    <input type="number">
+                    <label>Mi Ciudad</label>
+                    <select>
+                        <option value="Cbba">Cochabamba</option>
+                        <option value="Santa Cruz">Santa Cruz</option>
+                        <option value="Oruro">Oruro</option>
+                        <option value="La Paz">La Paz</option>
+                        <option value="Tarija">Tarija</option>
+                        <option value="Potosí">Potosí</option>
+                        <option value="Beni">Beni</option>
+                        <option value="Chuquisaca">Chuquisaca</option>
+                        <option value="Pando">Pando</option>
+                    </select>
+                    <label>Descripción</label>
+                    <textarea></textarea>
+                    <input type="button" value="Enviar">
+                </form>
+            </fieldset>
+        </div>
     </div>
     <!--Aquí ponemos el pie de página-->
     <footer>
@@ -33,7 +62,7 @@
             <div id="marcoMenuFooter">
                 <nav>
                     <a href="index.html">Inicio</a>
-                    <a href="#">Mis Vídeos</a>
+                    <a href="galeria.html">Mis Vídeos</a>
                     <a href="#">Mi Música</a>
                     <a href="contacto.html">Contáctenos</a>
                 </nav>
